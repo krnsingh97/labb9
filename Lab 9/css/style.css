@@ -1,0 +1,134 @@
+body{
+    
+    background-image:url("https://onwardigo.files.wordpress.com/2016/05/millionaire01.jpg");
+    display: flex;
+    width: 100%;
+    height: 775px;
+    
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   background-repeat: no-repeat;
+   
+    
+  
+}
+#index{
+    width: 100%;
+    height: 775px;
+    
+    
+}
+#lif {
+    width:  30%;
+   float: left;
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  padding: 10px;
+    margin-top: 350px;
+    
+}
+
+#lif button:hover{
+    
+    background-color: aliceblue;
+    color: black;
+}
+main{
+    width: 50%;
+  float: left;
+  height: 775px;
+}
+#lif button {
+  background-color: blue;
+  color: #fff;
+  border-radius: 20px;
+  height: 40px;
+    
+}
+#upar{
+ 
+    width: 600px;
+    margin-left: 80px;
+    color: aliceblue;
+    font-size: 30px;
+    text-align: center;
+    position: fixed;
+}
+amar{
+    
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    
+}
+amar:hover{
+    
+    color: black;
+}
+.flex {
+  display: flex;
+  align-content: stretch;
+  align-items: stretch;
+    width: 500px;
+ 
+}
+li amar{
+    list-style-type: none;
+    
+}
+#niche{
+    
+     flex-direction: column;
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 350px;
+}
+#niche h2{
+    background-color: black;
+    color: yellow;
+    margin-left: 40px;
+     border-radius: 50px;
+    font-size: 30px;
+    
+}
+#niche button {
+    background-color: black;
+    width: 250px;
+  height: 80px;
+text-align: center;
+  
+  color: yellow;
+    font-size: 25px;
+    
+  transition: background-color 0.7s;
+    box-sizing: content-box;
+    border-radius: 20px;
+}
+
+#niche button:hover {
+  background-color: orange;
+  color: #000;
+}
+
+
+#score{
+    width: 20%;
+    float: right;
+    height: auto;
+    border: 4px solid silver;
+    background-color: blue;
+    color: gold;
+    font-size: 20px;margin: 4px;
+}
+
+#score:hover{
+    
+    background-color: goldenrod;
+    color: black;
+}
+
+
+
